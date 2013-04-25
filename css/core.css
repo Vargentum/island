@@ -1,0 +1,272 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+audio:not([controls]) { display: none; height: 0; }
+
+[hidden] { display: none; }
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0; }
+
+@media print { * { background: transparent !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; } }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+html, button, input, select, textarea { font-family: sans-serif; }
+
+body { margin: 0; }
+
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+h2 { font-size: 1.5em; margin: 0.83em 0; }
+
+h3 { font-size: 1.17em; margin: 1em 0; }
+
+h4 { font-size: 1em; margin: 1.33em 0; }
+
+h5 { font-size: 0.83em; margin: 1.67em 0; }
+
+h6 { font-size: 0.75em; margin: 2.33em 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+mark { background: #ff0; color: #000; }
+
+p, pre { margin: 1em 0; }
+
+code, kbd, pre, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+
+q:before, q:after { content: ''; content: none; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+figure { margin: 0; }
+
+form { margin: 0; }
+
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+legend { border: 0; padding: 0; white-space: normal; *margin-left: -7px; }
+
+input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+button, input { line-height: normal; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; *overflow: visible; }
+
+button[disabled], input[disabled] { cursor: default; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *height: 13px; *width: 13px; }
+
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+textarea { overflow: auto; vertical-align: top; }
+
+img { border: 0; /* 1 */ -ms-interpolation-mode: bicubic; /* 2 */ }
+
+svg:not(:root) { overflow: hidden; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.ir { background-color: transparent; border: 0; overflow: hidden; *text-indent: -9999px; }
+.ir:before { content: ""; display: block; width: 0; height: 100%; }
+
+.hidden { display: none !important; visibility: hidden; }
+
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+.invisible { visibility: hidden; }
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+*, *:before, *:after, input[type=search] { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/*=============================================================== FONT FACE
+===============================================================*/
+@font-face { font-family: fontName; font-style: normal; font-weight: normal; src: url("../fonts/fontName.eot"); src: url("../fonts/fontName.eot?#iefix") format("embedded-opentype"), url("../fonts/fontName.woff") format("woff"), url("../fonts/fontName.ttf") format("truetype"); }
+
+/*=============================================================== VARIABLES
+===============================================================*/
+/*=============================================================== HELPER CLASSES
+===============================================================*/
+.hLine > *, .hLine-top > *, .no-flexbox .fLine > *, .b-crumbs > * { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
+
+.hLine-top > * { vertical-align: top; }
+
+.jLine, .jLine-top, .no-flexbox .fLine-full, .b-nav { text-align: justify; line-height: 0; font-size: 1px; text-justify: newspaper; zoom: 1; text-align-last: justify; }
+.jLine:after, .jLine-top:after, .no-flexbox .fLine-full:after, .b-nav:after { content: ""; display: inline-block; height: 0; overflow: hidden; visibility: hidden; width: 100%; }
+.jLine > *, .jLine-top > *, .no-flexbox .fLine-full > *, .b-nav > * { text-align: left; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; line-height: 1.4; font-size: 13px; }
+
+.jLine-top > * { vertical-align: top; }
+
+.flexbox .fLine { display: -webkit-box; display: -moz-box; display: -ms-box; display: box; }
+
+.flexbox .fLine-full { display: -webkit-box; display: -moz-box; display: -ms-box; display: box; -webkit-box-pack: justify; -moz-box-pack: justify; -ms-box-pack: justify; box-pack: justify; }
+.flexbox .fLine-full > * { -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; }
+
+.is-hidden { display: none; }
+
+.is-shown, .is-block { display: block; }
+
+.is-uppercase { text-transform: uppercase; letter-spacing: 1px; }
+
+.is-lowercase { text-transform: lowercase; }
+
+.pageWidth { width: 980px; min-width: 980px; margin-left: auto; margin-right: auto; }
+
+.pseudo-block { content: ''; display: block; position: absolute; }
+
+.pseudo-inline { content: ''; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
+
+.input-reset { background-color: transparent; border: none; }
+.input-reset:hover, .input-reset:focus { outline: none; }
+
+.text-hide, .b-logo .name { font: 0/0 serif; text-shadow: none; color: transparent; }
+
+:root .gradient, :root .ie9-gradient-support { filter: none \0/IE9; }
+
+.dl-inline { *zoom: 1; }
+.dl-inline:after { content: ""; display: table; clear: both; }
+.dl-inline > dl { float: left; margin-right: 5px; }
+
+/*=============================================================== MIXINS
+===============================================================*/
+/*=============================================================== SETTING UP FORMS
+===============================================================*/
+button { border: none; background-color: transparent; }
+
+label, select { display: block; }
+
+input[type="search"] { -webkit-appearance: textfield; }
+
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+textarea { overflow: auto; vertical-align: top; }
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"] { -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s; transition: border linear 0.2s, box-shadow linear 0.2s; }
+
+input[type="radio"], input[type="checkbox"] { margin: 4px 0 0; margin-top: 1px \9; *margin-top: 0; line-height: normal; cursor: pointer; }
+
+input[type="file"], input[type="image"], input[type="submit"], input[type="reset"], input[type="button"], input[type="radio"], input[type="checkbox"] { width: auto; }
+
+select, input[type="file"] { *margin-top: 4px; /* In IE7, the height of the select element cannot be changed by height, only font-size */ }
+
+select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus { outline: thin dotted #333; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
+
+::-webkit-input-placeholder { /* WebKit browsers */ color: #333333; }
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #333333; }
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #333333; }
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */ color: #333333; }
+
+/*===============================================================
+CUSTOM TYPOGRAPHY
+===============================================================*/
+html, button, input, select, textarea { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; color: #333333; }
+
+html { height: 100%; }
+
+h1, h2, h3, h4, h5, h6, p, ul, ol { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+em { font-style: italic; }
+
+a { color: blue; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+a:visited { color: blue; }
+a:focus { color: blue; }
+a:hover { color: blue; }
+a:active { color: blue; }
+a:focus { outline: thin dotted; }
+a:active, a:hover { outline: none; }
+
+html, body { height: 100%; }
+
+.b-stickyFooter_helper-1 { clear: both; min-height: 100%; height: auto !important; height: 100%; margin-bottom: -110px; }
+.b-stickyFooter_helper-1 .b-stickyFooter_helper-2 { height: 110px; }
+
+.b-footer { clear: both; position: relative; height: 110px; }
+
+.b-typography { margin: 10px 0; }
+.b-typography p { margin-bottom: 15px; }
+.b-typography ul { list-style-type: disc; margin-bottom: 15px; }
+.b-typography ol { margin-bottom: 15px; list-style-type: decimal; }
+.b-typography h1 { font-size: 2.2em; }
+.b-typography h2 { font-size: 1.7em; }
+.b-typography h3 { font-size: 1em; font-weight: bold; }
+.b-typography h4 { font-size: 0.9em; }
+.b-typography h5 { font-size: 0.8em; }
+.b-typography h6 { font-size: 0.7em; }
+
+/*===============================================================
+DEVELOPER STYLES RUN BELOW THIS POINT
+===============================================================*/
+body { height: 100%; font-size: 13px; line-height: 1.4; background-color: white; }
+
+/*OBJECTS-------------------------------*/
+/* HEADER -------------------------------*/
+.b-header { position: relative; }
+
+.b-logo { text-decoration: none; }
+.b-logo .name { position: absolute; }
+
+/* FOOTER -------------------------------*/
+.b-footer { position: relative; }
+
+/* CONTENT -------------------------------*/
+.b-main { position: relative; font-size: 12px; color: white; font-weight: normal; }
+
+/*INDEX page-----------------------*/
+/*SOME page------------------------*/
+/*PLUGINS styles -------------------*/
+@-moz-document url-prefix() {}
